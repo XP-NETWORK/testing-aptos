@@ -7,7 +7,7 @@ import {
 import { AptosAccount } from 'aptos';
 import {config} from 'dotenv'; config();
 
-const setup = async () => {
+export const setup = async () => {
 
     const factory = ChainFactory(
         AppConfigs.TestNet(),
@@ -24,7 +24,8 @@ const setup = async () => {
     return{
         signer,
         aptos,
-        bsc
+        bsc,
+        factory
     }
 }
 
