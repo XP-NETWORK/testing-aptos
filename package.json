@@ -1,0 +1,15 @@
+{
+  "name": "testing-aptos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/XP-NETWORK/testing-aptos.git",
+  "author": "Dima Brook <dima@xp.network>",
+  "license": "MIT",
+  "scripts": {
+    "start": ""
+  },
+  "dependencies": {
+    "aptos": "^1.3.17",
+    "xp.network": "git+https://github.com/xp-network/xpjs#bleeding-edge"
+  }
+}
